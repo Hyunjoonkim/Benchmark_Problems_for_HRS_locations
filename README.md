@@ -7,8 +7,9 @@ The five benchmark data sets can be downloaded by click
 </center>
 <br>
 
+<center>
 #1.	Introduction
-
+</center>
   In many countries, a lack of hydrogen refueling station (HRS) infrastructure is a major barrier for Fuel Cell Electric Vehicles (FCEV) to become more popular. The high-priced installation cost of HRS make the governments afford to place a limited number of HRSs in a short period time. This paper attempts to find optimal locations of one or two HRSs for the cases in which HRSs are deployed incrementally based on FCEV market development that is currently difficult to foresee. 
 
   In this paper, we propose a location optimization model applied to the context of a large city like Paris where fuel prices in general are higher than in the outskirts and where refueling stations attract car owners or taxi drivers who are looking for a HRS close to their parking lot. The incremental deployment of an HRS network that we propose must be able to attract at least a minimum number of customers corresponding to an initial investment payback period of 5 years maximum.
