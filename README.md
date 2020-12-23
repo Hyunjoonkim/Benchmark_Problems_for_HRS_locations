@@ -19,7 +19,7 @@ The five benchmark data sets can be downloaded by click [here](https://github.co
 
   Given that a set of HRSs are already located, we propose to locate incrementally one or two new HRSs at the saturation point when all HRSs have n<sub>{max}</sub> of customers.
   We represent the city of Paris (11 km x 9 km) by a rectangular grid defined from (0,0) to (110,90) with 10,101 possible locations in which new HRSs can be located. The first existing HRS is installed close to Pont de l’Alma (see Figure 1). <br> 
-  Considering that taxis are moving everywhere within the city, we assume that demand points are uniformly distributed in the city. Each HRS can supply a maximum of 200 kg/day which corresponds to a maximal number of customers per day n<sub>{max}</sub> = 125. In appendix 1, we calculate the minimum number of customers to attract to reach the payback period in 5 years, n<sub>{min}</sub> = 36.
+  Considering that taxis are moving everywhere within the city, we assume that demand points are uniformly distributed in the city. Each HRS can supply a maximum of 200 kg/day which corresponds to a maximal number of customers per day n<sub>{max}</sub> = 125. In appendix 1, we calculate the minimum number of customers to attract to reach the payback period in 5 years, n<sub>min</sub> = 36.
   
   We choose 5 cases of incremental HRS launching as follows:
 - Case 1: Extend one existing HRS to two HRSs (one additional HRS)
@@ -44,10 +44,10 @@ Table 1 shows the data used in the 5 cases. In our mathematical models and propo
 
 The parameters used in the algorithm are as follows.
 - We choose to represent the city by the grid of 111 x 91 cells, considering the geography of Paris (Figure 1) with 1 cell ≈ 100 meters.
-- The minimum and the maximum number of customers related to HRS capacity, denoted by n<sub>{min}</sub> and n<sub>{max}</sub>, are set to 36 and 125, respectively. The d<sub>{min}</sub>, used to make the eligible potential points set _I<sub>{e}</sub>_, is set to 35.5, which is the quarter of the city area’s diagonal length.
+- The minimum and the maximum number of customers related to HRS capacity, denoted by n<sub>min</sub> and n<sub>max</sub>, are set to 36 and 125, respectively. The d<sub>min</sub>, used to make the eligible potential points set _I<sub>e</sub>_, is set to 35.5, which is the quarter of the city area’s diagonal length.
 
 The 5 benchmark data sets can be downloaded by click [Benchmark data.zip](https://github.com/Hyunjoonkim/Hyunjoonkim.github.io/files/5733593/Benchmark.data.zip).
 There are three input files for each case.
 1. “Demand_coordinate_Case#.csv” - a set of demand customers is given with the following characteristics: Demand index, X coordinate, Y coordinate
 2. “Existing_HRS_coordinate_Case#.csv” - a set of existing HRSs is given with the following characteristics: Existing HRS index, X coordinate, Y coordinate
-3. “Option.csv” - a set of parameters used in the experiments: X-axis range, Y-axis range, W1, W2, n<sub>{min}</sub>, n<sub>{max}</sub>, p value used in Minkowski distance calculation, d~min~
+3. “Option.csv” - a set of parameters used in the experiments: X-axis range, Y-axis range, W1, W2, n<sub>min</sub>, n<sub>max</sub>, p value used in Minkowski distance calculation, d<sub>min</sub>
