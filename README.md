@@ -35,8 +35,7 @@ The five benchmark data sets can be downloaded by click [here](https://github.co
 <center> Figure 1. Rectangle of 11 km x 9 km surrounding the city of Paris (Google Map) </center>
 <br/>
 Table 1 shows the data used in the 5 cases. In our mathematical models and proposed algorithm, the _Minkowski distance_ with p=1.31 is used.<br/>
-<center> Table 1. Five different cases of gradual HRS launching </center> <br/>
-
+<center> Table 1. Five different cases of gradual HRS launching </center> <br>
 
 ||**Case 1**|**Case 2**|**Case 3**|**Case 4**|**Case 5**|
 |:---|:---:|:---:|:---:|:---:|:---:|
