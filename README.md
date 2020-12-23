@@ -3,7 +3,8 @@
 
 Benchmark Problems for H. Kim, B.-I. Kim, and D. Thiel “Optimal Incremental Deployment Method of Hydrogen Refueling Stations,” working paper, 2020
 <br/>
-The 5 benchmark data sets can be downloaded by click [Benchmark data.zip](https://github.com/Hyunjoonkim/Hyunjoonkim.github.io/files/5733593/Benchmark.data.zip).
+<center> The five benchmark data sets can be downloaded by click [Benchmark data.zip](https://github.com/Hyunjoonkim/Hyunjoonkim.github.io/files/5733593/Benchmark.data.zip).  </center>
+
 <br/>
 
 #1.	Introduction
@@ -35,6 +36,8 @@ The 5 benchmark data sets can be downloaded by click [Benchmark data.zip](https:
 <br/>
 
 Table 1 shows the data used in the 5 cases. In our mathematical models and proposed algorithm, the _Minkowski distance_ with p=1.31 is used.
+Table 1. Five different cases of gradual HRS launching <br/>
+
 
 ||**Case 1**|**Case 2**|**Case 3**|**Case 4**|**Case 5**|
 |:---|:---:|:---:|:---:|:---:|:---:|
