@@ -37,14 +37,13 @@ The five benchmark data sets can be downloaded by click [here](https://github.co
 Table 1 shows the data used in the 5 cases. In our mathematical models and proposed algorithm, the _Minkowski distance_ with p=1.31 is used.<br/>
 <center> Table 1. Five different cases of gradual HRS launching </center> <br>
 
-<center>
 ||**Case 1**|**Case 2**|**Case 3**|**Case 4**|**Case 5**|
 |:---|:---:|:---:|:---:|:---:|:---:|
 |_n(D): number of customers_|125|250|125|875|875|
 |_K<sub>0</sub>: number of existing HRSs_|1|2|1|7|7|
 |_number of new HRSs_|1|1|2|1|2|
 |_K: total number of HRSs_|2|3|3|8|9|
-</center>
+
 
 The parameters used in the algorithm are as follows.
 - We choose to represent the city by the grid of 111 x 91 cells, considering the geography of Paris (Figure 1) with 1 cell ≈ 100 meters.
