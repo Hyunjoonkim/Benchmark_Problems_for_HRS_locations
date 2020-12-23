@@ -1,9 +1,7 @@
 # Benchmark_Problems_for_HRS_locations
 ### Benchmark Problems for H. Kim, B.-I. Kim, and D. Thiel “Optimal Incremental Deployment Method of Hydrogen Refueling Stations,” working paper, 2020
 
-<p align="center">
 The five benchmark data sets can be downloaded by click [here](https://github.com/Hyunjoonkim/Hyunjoonkim.github.io/files/5733593/Benchmark.data.zip).
-</p>
 <br>
 
 #1.	Introduction
