@@ -55,4 +55,4 @@ The 5 benchmark data sets can be downloaded by click [Benchmark data.zip](https:
 There are three input files for each case.
 1. “Demand_coordinate_Case#.csv” - a set of demand customers is given with the following characteristics: Demand index, X coordinate, Y coordinate
 2. “Existing_HRS_coordinate_Case#.csv” - a set of existing HRSs is given with the following characteristics: Existing HRS index, X coordinate, Y coordinate
-3. “Option.csv” - a set of parameters used in the experiments: X-axis range, Y-axis range, W1, W2, n<sub>min</sub>, n<sub>max</sub>, p value used in Minkowski distance calculation, d<sub>min</sub>
+3. “Option.csv” - a set of parameters used in the experiments: X-axis range, Y-axis range, W1, W2, n<sub>min</sub>, n<sub>max</sub>, p value used in Minkowski distance calculation, d~min~
